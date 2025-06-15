@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="nav.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Navbar Start -->
+    <header>
+      <div class="logo d-flex justify-content-between px-sm-5 py-sm-1 ms-2 ms-sm-0 fixed-top">
+          <p>FixIt</p>
+          <nav>
+              <ul class="d-none d-sm-flex mt-sm-4">
+                  <li><a class="active" href="">Home</a></li>
+                  <li><a href="index.html#contact">Contact</a></li>
+                  <li><a href="about-us.html">About</a></li>
+                  <li><a href="login.html">Login</a></li>
+              </ul>
+          </nav>
+          <i id="navopen" class="bi bi-list d-sm-none mt-2 me-2"></i>
+      </div>
+      <div class="sidenav d-sm-none">
+          <i id="navclose" class="bi bi-x"></i>
+          <ul>
+              <li>Home</li>
+              <li>Contact</li>
+              <li>About</li>
+              <li>Login</li>
+          </ul>
+      </div>
+    </header>
+  <!-- Navbar End -->
+    <div class="hero py-sm-5 container">
+        <div class="hero-s">
+            <div class="hero-right">
+                <h1 class="mt-sm-5">Fix Your Problems with FixIt </h1>
+                <p class="mt-sm-5">Search for your Desired Proffesional near you
+                just in a single search</p>
+                <a href="service.html"><button type="button" class="btn btn-theme text-white p-sm-3">Search Now</button></a>
+            </div>
+            <div class="hero-left">
+        <img class="" src="Assets/Handyman.png" alt="">
+    </div>
+    </div>
+    </div>
+    <!-- The Landing page should be fixed and when we scroll up it should stick with navbar and it should be in sticked position -->
+    <!-- Popular Searches Start-->
+    <div class="pop pt-sm-4 pb-sm-5">
+    <h1 class="title fs-2 p-0 mb-sm-4">Popular Searches</h1>
+      <div class="psearch pt-3 pt-sm-2 container-fluid">
+        <div class="row f-row px-2 justify-content-between px-sm-5">
+          <div class="col col-lg-5 col-md-12 mb-md-5 mx-lg-0 me-lg-3 f-col">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block" src="Assets/Service.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="" alt="Third slide">
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="col d-none d-sm-block me-3  f-col"><a href="service.html?skill=Hospital"><img class="d-flex w-75 h-50 rounded-3 m-auto mt-5" src="Assets/Hospital.jpg" alt=""></a><p class="text-center text-black">Hospital</p></div>
+          <div class="col d-none d-sm-block mx-3 mx-md-3 f-col"><a href="service.html?skill=Restaurant"><img class="d-flex w-75 h-50 rounded-3 m-auto mt-5" src="Assets/Restaurant.avif" alt=""></a><p class="text-center text-black">Restaurant</p></div>
+          <div class="col d-none d-sm-block mx-3 mx-md-2 f-col"><a href="service.html?skill=Coaching Class"><img class="d-flex w-75 h-50 rounded-3 m-auto mt-5" src="Assets/coaching.png" alt=""></a><p class="text-center text-black">Coaching Class</p></div>
+          <div class="col d-none d-sm-block ms-3 f-col"><a href="service.html?skill=Videographers"><img class="d-flex w-75 h-50 rounded-3 m-auto mt-5" src="Assets/camera.png" alt=""></a><p class="text-center text-black">Videographers</p></div>
+        </div>
+
+        <div class="row mt-4 px-2 mt-lg-2 px-sm-5 s-row">
+          <div class="col me-2 me-lg-3 s-col comp-repairs p-sm-0"><a href="service.html?skill=Packer&Movers"><img class="d-flex w-75 h-100 rounded-3 m-auto" src="Assets/Packer&Movers.webp" alt=""><p class="text-center">Packers & Movers</p></a></div>
+          <div class="col mx-2 mx-lg-3 s-col p-sm-0"><a href="service.html?skill=Event Planners"><img class="d-flex w-75 h-100 rounded-3 m-auto" src="Assets/Event_Planner.jpg" alt=""><p class="text-center">Event Planners</p></a></div>
+          <div class="col ms-2 mx-lg-3 me-md-2 s-col p-sm-0"><a href="service.html?skill=Real Estate"><img class="d-flex w-75 h-100 rounded-3 m-auto" src="Assets/real-estate.webp" alt=""><p class="text-center">Real Estate</p></a></div>
+          <div class="col me-2 mx-lg-3 ms-md-2 mt-3 mt-sm-0 s-col p-sm-0"><a href="service.html?skill=Pet Shop"><img class="d-flex w-50 h-100 rounded-3 m-auto" src="Assets/pet_shop.jpg" alt=""><p class="text-center">Pet Shop</p></a></div>
+          <div class="col mx-2 mx-lg-3 mt-3 mt-sm-0 s-col p-sm-0"><a href="service.html?skill=Gym"><img class="d-flex w-50 h-100 rounded-3 m-auto" src="Assets/gym.jpg" alt=""><p class="text-center">Gym</p></a></div>
+          <div class="col ms-2 ms-lg-3 mt-3 mt-sm-0 s-col p-sm-0"><a href="service.html?skill=Lawyer"><img class="d-flex w-50 h-100 rounded-3 m-auto" src="Assets/lawyer.jpg" alt=""><p class="text-center">Lawyer</p></a></div>
+        </div>
+
+        <div class="row mt-3 px-2 mt-sm-5 px-sm-5 s-row">
+          <div class="col me-2 me-lg-3 s-col"><a href="service.html?skill=Caterors"><img class="d-flex w-75 h-100 rounded-3 m-auto" src="Assets/caterors.avif" alt=""><p class="text-center">Caterors</p></a></div>
+          <div class="col mx-2 mx-lg-3 s-col"><a href="service.html?skill=Electrician"><img class="d-flex w-50 h-100 rounded-3 m-auto" src="Assets/electrician.jpg" alt=""><p class="text-center">Electrician</p></a></div>
+          <div class="col ms-2 mx-lg-3 me-md-2 s-col"><a href="service.html?skill=Plumber"><img class="d-flex w-75 h-100 rounded-3 m-auto" src="Assets/plumber.jpg" alt=""><p class="text-center">Plumber</p></a></div>
+          <div class="col me-2 mx-lg-3 ms-md-2 mt-3 mt-sm-0 s-col"><a href="service.html?skill=Carpenter"><img class="d-flex w-75 h-100 rounded-3 m-auto" src="Assets/Carpenter.jpg" alt=""><p class="text-center">Carpenter</p></a></div>
+          <div class="col mx-2 mx-lg-3 mt-3 mt-sm-0 s-col"><a href="service.html?skill=Pest Control"><img class="d-flex w-75 h-100 rounded-3 m-auto" src="Assets/Pest_control.jpg" alt=""><p class="text-center">Pest Control</p></a></div>
+          <div class="col ms-2 ms-lg-3 mt-3 mt-sm-0 s-col"><a href="service.html?skill=House Cleaning"><img class="d-flex w-100 h-100 rounded-3 m-auto" src="Assets/House Cleaning.jpg" alt=""><p class="text-center">House Cleaning</p></a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Popular Searches End -->
+
+    <!-- Repairs and Services -->
+    <div class="rns">
+      <h1 class="title fs-2">Repairs and Services</h1>
+      <div class="container-fluid psearch">
+        <div class="row px-3 px-sm-5 justify-content-between r-row">
+          
+          <div class="col me-1 col-sm p-0 me-sm-3 r-col">
+            <img src="Assets/Ac_Repair.jpeg" alt="">
+            <div class="r-inner">
+              <p>Ac Repairs</p>
+              <button class="p-2 p-sm-2">
+                <a href="service.html?skill=Ac Repairs" class="text-decoration-none text-black">Book Now</a>
+              </button>
+            </div>
+          </div>
+    
+          <div class="col col-sm p-0 me-sm-3 r-col">
+            <img src="Assets/washing.jpg" alt="">
+            <div class="r-inner">
+              <p>Washing Machine Repairs</p>
+              <button class="p-2 p-sm-2">
+                <a href="service.html?skill=Washing Machine Repairs" class="text-decoration-none text-black">Book Now</a>
+              </button>
+            </div>
+          </div>
+    
+          <div class="col-6 me-1 col-sm p-0 me-sm-3 r-col">
+            <img src="Assets/Computer_Repairs.jpeg" alt="">
+            <div class="r-inner">
+              <p>Computer Repairs</p>
+              <button class="p-2 p-sm-2">
+                <a href="service.html?skill=Computer Repairs" class="text-decoration-none text-black">Book Now</a>
+              </button>
+            </div>
+          </div>
+    
+          <div class="col col-sm p-0 me-sm-3 r-col">
+            <img src="Assets/Tv_Repair.jpg" alt="">
+            <div class="r-inner">
+              <p>TV Repairs</p>
+              <button class="p-2 p-sm-2">
+                <a href="service.html?skill=TV Repairs" class="text-decoration-none text-black">Book Now</a>
+              </button>
+            </div>
+          </div>
+    
+          <div class="col-6 me-1 col-sm p-0 me-sm-3 r-col">
+            <img src="Assets/Water.webp" alt="">
+            <div class="r-inner">
+              <p>Water Purifier Repairs</p>
+              <button class="p-2 p-sm-2">
+                <a href="service.html?skill=Water Purifier Repairs" class="text-decoration-none text-black">Book Now</a>
+              </button>
+            </div>
+          </div>
+    
+          <div class="col col-sm p-0 me-sm-3 r-col d-sm-none">
+            <img src="Assets/washing.jpg" alt="">
+            <div class="r-inner">
+              <p>Washing Machine Repairs</p>
+              <button class="p-2 p-sm-2">
+                <a href="service.html?skill=Washing Machine Repairs" class="text-decoration-none text-black">Book Now</a>
+              </button>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Join as Service Provider Start -->
+    <div class="jasp">
+      <h1 class="title">Want to be a Service Provider?</h1>
+      <h3 class="mt-4">Get Started In 3 Easy Steps</h3>
+      <div class="jasp_row mt-5">
+      <div class="row">
+        <div class="col jasp_col">
+          <img src="Assets/post-a-job.svg" alt="">
+          <p>Give the Details ​about your service ​or buiness</p>
+        </div>
+        <div class="col jasp_col">
+          <img src="Assets/get-verified.svg" alt="">
+          <p>Get Verified By our ​support team</p>
+        </div>
+        <div class="col jasp_col">
+          <img src="Assets/start sp.svg" alt="">
+          <p>Start Your Journey ​as a Service ​Provider in “#”</p>
+        </div>
+      </div>
+      </div>
+      <a class="text-decoration-none" href="login.html?role=provider"><button class="join-btn">Join as a Service Provider Now</button></a>
+      </div>
+      <!-- Join as Service Provider End -->
+
+      <!-- Contact Section Start-->
+    <section class="contact" id="contact">
+      <h2 id="title">Contact Us</h2>
+      <div class="contacta">
+        <div class="contactl">
+          <br>
+          <div class="phone">
+              <p><i class="fa-solid fa-phone"></i></p>
+              <div>
+              <p id="heading">Call</p>
+              <p id="no">8433843099</p>
+              </div>
+          </div>
+          <div class="phone">
+              <p><i class="fa-solid fa-envelope"></i></p>
+              <div>
+              <p id="heading">Mail</p>
+              <p id="no">abc@gmail.com</p>
+              </div>
+          </div>
+          <div class="phone">
+              <p><i class="fa-solid fa-location-dot"></i></p>
+              <div>
+              <p id="heading">Location</p>
+              <p id="no">Mum</p>
+              </div>
+          </div>
+          <div class="phone">
+              <p><i class="fa-solid fa-clock"></i></p>
+              <div>
+              <p id="heading">Open Hours</p>
+              <p id="no">Mon - Sat : 11.00am - 6.00pm</p>
+              </div>
+          </div>
+        </div>
+        <div class="contactr">
+          <form action="">
+              <input type="text" placeholder="Enter Your Name">
+              <input type="number" name="" id="" placeholder="Enter Your Phone Number">
+              <br>
+              <input type="email" name="" id="mail" placeholder="Enter Your Email">
+              <textarea name="" id="message" cols="50" rows="10" placeholder="Enter Your Message"></textarea>
+              <button type="button" id="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+  
+  </section>
+  <!-- Contact Section End -->
+  <div class="copyright bg-theme text-center d-flex p-3" >
+    <p class="m-auto text-white"><i class="bi bi-c-circle"></i> Copyright Reserved by Venkatesh Swamy</p>
+  </div>
+
+ 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
